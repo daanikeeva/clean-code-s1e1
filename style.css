@@ -47,8 +47,9 @@
 .section__title {
   list-style: none;
 }
-input,
-button {
+.add-task__task,
+.task-list__input-text,
+.btn {
   outline: none;
 }
 .btn {
@@ -74,7 +75,8 @@ button {
   margin: 0;
   text-transform: uppercase;
 }
-.task-list__input-text {
+.task-list__input-text,
+.add-task__task {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -115,15 +117,18 @@ button {
 .task-list__checkbox {
   margin: 0 10px;
 }
+
 .task-list__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .task-list__input-text{
   width: 226px;
 }
+
 .btn__icon {
   height: 2em;
   transform: rotateZ(45deg);
